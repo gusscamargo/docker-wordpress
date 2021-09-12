@@ -14,7 +14,7 @@ cd "docker-wordpress"
 docker-compose up -d
 ```
 
-Acessce [127.0.0.1](http://127.0.0.1/) ou [localhost](http://localhost/) e já pode começar a instalar o Wordpress
+Acesse o Wordpress via [127.0.0.1](http://127.0.0.1/) ou [localhost](http://localhost/) e já pode começar a instalação dele
 
 #### Dou o detalhe que na parte que exige a conexão com o banco de dados:
 Nome do banco de dados: wordpress
