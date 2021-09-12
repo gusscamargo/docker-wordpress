@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  wordpress:
+    image: wordpress:5.8.0-apache
+    volumes: 
+      - ./wordpress:/usr/src/wordpress
+    restart: always
+    ports: 
+      - "80:80"
+    depends_on: 
+      - banco-de-dados
+    networks:
+      - rede-projeto
+  banco-de-dados:
+    image: mysql:5.7
+    volumes: 
+      - banco-de-dados_armazenamento
+    networks: 
+      - rede-projeto
+    restart: always
+    environment: 
+      MYSQL_DATABASE: "wordpress"
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_USER: "wordpress"
+      MYSQL_PASSWORD: "wordpress"
+
+volumes:
+  banco-de-dados_armazenamento:
+
+networks: 
+  rede-projeto:
