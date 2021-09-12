@@ -1,5 +1,5 @@
-# docker-wordpress
-##### Criação de um um ambiente de desenvolvimento Wordpress e MySQL com Docker Compose
+# Wordpress 5.8 com MySQL 5.7
+##### Ambiente de desenvolvimento Wordpress e MySQL com Docker Compose
 
 Para fazer funcionar, basta clonar este repositorio com
 ```
