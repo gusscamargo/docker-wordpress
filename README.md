@@ -18,6 +18,9 @@ Acessce [127.0.0.1](http://127.0.0.1/) ou [localhost](http://localhost/) e já p
 
 #### Dou o detalhe que na parte que exige a conexão com o banco de dados:
 Nome do banco de dados: wordpress
+
 Nome de usuario: wordpress
+
 Senha: wordpress
+
 Servidor do banco de dados: banco-de-dados
