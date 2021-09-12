@@ -4,7 +4,7 @@ services:
   wordpress:
     image: wordpress:5.8.0-apache
     volumes: 
-      - ./wordpress:/usr/src/wordpress
+      - ./wordpress:/var/www/html
     restart: always
     ports: 
       - "80:80"
