@@ -1,6 +1,8 @@
 # Wordpress 5.8 com MySQL 5.7
 ### Ambiente de desenvolvimento Wordpress e MySQL com Docker e Docker-Compose
 
+### Link artigo: [LinkedIn ](https://www.linkedin.com/pulse/cria%25C3%25A7%25C3%25A3o-de-um-ambiente-desenvolvimento-wordpress-com-gustavo/?trackingId=t9gmH7%2BAScODqfEY%2BvYvnQ%3D%3D) e [Medium](https://h3fest0s.medium.com/cria%C3%A7%C3%A3o-de-um-ambiente-de-desenvolvimento-wordpress-com-mysql-utilizando-docker-e-docker-compose-879a49d38386)
+
 1) Para fazer funcionar, basta clonar este repositorio com
 ```
 git clone https://github.com/gusscamargo/docker-wordpress
